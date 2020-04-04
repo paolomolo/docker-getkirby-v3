@@ -2,7 +2,7 @@
 
 Dockerfile for a container running Kirby CMS, Alpine, Apache and PHP7.
 
-For the Kirby 2 Dockerfile check out [docker-getkirby-v2](https://github.com/paolomolo/docker-getkirby-v2)
+Check out [docker-getkirby-v2](https://github.com/paolomolo/docker-getkirby-v2) for the deprecated Kirby 2 Dockerfile
 
 ## Getting Started
 
@@ -30,5 +30,5 @@ Then run `docker-compose up` from your command line and visit `localhost` in you
 
 * [Kirby CMS](https://github.com/getkirby) a file‑based CMS
 * [Alpine](https://github.com/alpinelinux) a security-oriented, lightweight Linux distribution
-* [PHP7](https://github.com/php) incl. `php-curl, php-dom, php-openssl, php-xml, php-json`
+* [PHP7](https://github.com/php) incl. `php-curl, php-mbstring, php-ctype, php-gd`
 * [Apache2](https://github.com/apache) web server
