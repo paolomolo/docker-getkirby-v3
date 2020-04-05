@@ -10,7 +10,7 @@ Check out [docker-getkirby-v2](https://github.com/paolomolo/docker-getkirby-v2) 
 
 Create a `docker-compose.yml` in your Kirby directory:
 
-```
+``` yaml
 version: '3'
 services:
   docker:
