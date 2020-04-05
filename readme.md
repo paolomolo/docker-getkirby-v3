@@ -11,7 +11,7 @@ Check out [docker-getkirby-v2](https://github.com/paolomolo/docker-getkirby-v2) 
 Create a `docker-compose.yml` in your Kirby directory:
 
 ```
-version: '2'
+version: '3'
 services:
   docker:
     image: paolomolo/getkirby-apache:v3
@@ -19,8 +19,9 @@ services:
       - ./content:/var/www/localhost/htdocs/content
       - ./site:/var/www/localhost/htdocs/site
       - ./assets:/var/www/localhost/htdocs/assets
+      - ./media:/var/www/localhost/htdocs/media
     ports:
-      - 80:80
+      - "80:80"
 
 ```
 
