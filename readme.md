@@ -1,8 +1,11 @@
 # Docker for Kirby CMS (v3)
 
-Dockerfile for a container running Kirby CMS, Alpine, Apache and PHP7.
+Dockerfile for a container running Kirby CMS, Alpine, Apache and PHP7
 
-Check out [docker-getkirby-v2](https://github.com/paolomolo/docker-getkirby-v2) for the deprecated Kirby 2 Dockerfile
+[![Docker Pulls][docker-pulls-src]][docker-pulls-href]
+[![Docker Build Status][docker-build-src]][docker-build-href]
+
+For the Kirby 2 legacy version check out [docker-getkirby-v2](https://github.com/paolomolo/docker-getkirby-v2)
 
 ## Getting Started
 
@@ -33,3 +36,10 @@ Then run `docker-compose up` from your command line and visit `localhost` in you
 * [Alpine](https://github.com/alpinelinux) a security-oriented, lightweight Linux distribution
 * [PHP7](https://github.com/php) incl. `php-curl, php-mbstring, php-ctype, php-gd`
 * [Apache2](https://github.com/apache) web server
+
+<!-- Badges -->
+[docker-pulls-src]: https://img.shields.io/docker/pulls/paolomolo/getkirby-apache?color=blue
+[docker-pulls-href]: https://hub.docker.com/r/paolomolo/getkirby-apache
+
+[docker-build-src]: https://img.shields.io/docker/build/paolomolo/getkirby-apache?label=build
+[docker-build-href]: https://hub.docker.com/r/paolomolo/getkirby-apache/builds
